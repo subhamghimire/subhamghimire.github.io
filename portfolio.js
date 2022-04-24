@@ -96,7 +96,7 @@ export const experience = [
     role: "Junior Web Developer",
     company: "Rubix Web",
     companylogo: "/img/icons/common/rubix.png",
-    date: "Dec 2019 - Dec 2019",
+    date: "Sept 2018 - Dec 2019",
     desc: "Learned PHP, Laravel framework development along with frontend technologies",
   },
 ];
