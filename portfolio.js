@@ -90,7 +90,7 @@ export const experience = [
     company: "Alphatech",
     companylogo: "/img/icons/common/alphatech.png",
     date: "Dec 2019 - Present",
-    desc: "Working as Full Stack web developer to create fast, user-centric web apps, clean maintainable code, intuitive user interfaces & automating business goals",
+    desc: "Working as Full Stack web developer to create fast, user-centric web apps, clean maintainable code & intuitive user interfaces",
   },
   {
     role: "Junior Web Developer",
