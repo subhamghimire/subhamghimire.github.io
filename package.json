@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Shekhar Ghimire portfolio website",
   "main": "index.js",
-  "repository": "https://github.com/1hanzla100/hanzla-portfolio.git",
+  "repository": "https://github.com/subhamghimire/portfolio",
   "author": "Shekhar GHimire",
   "license": "MIT",
   "scripts": {

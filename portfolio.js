@@ -19,7 +19,7 @@ export const socialLinks = {
   instagram: "https://www.instagram.com/subham.ghimire/",
   twitter: "https://twitter.com/GhimireShekhar1",
   github: "https://github.com/subhamghimire",
-  linkedin: "https://www.linkedin.com/in/subham-ghimire-0944a4157",
+  linkedin: "https://www.linkedin.com/in/shekhar-ghimire-0944a4157",
 };
 
 export const skillsSection = {
