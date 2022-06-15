@@ -17,7 +17,7 @@ export const contact = {};
 export const socialLinks = {
   facebook: "https://www.facebook.com/profile.php?id=100069337756812",
   instagram: "https://www.instagram.com/subham.ghimire/",
-  twitter: "https://twitter.com/SubhamGhimire26",
+  twitter: "https://twitter.com/GhimireShekhar1",
   github: "https://github.com/subhamghimire",
   linkedin: "https://www.linkedin.com/in/subham-ghimire-0944a4157",
 };
