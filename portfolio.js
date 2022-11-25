@@ -30,7 +30,7 @@ export const skillsSection = {
       title: 'Full Stack Development',
       lottieAnimationFile: '/lottie/skills/fullstack.json', // Path of Lottie Animation JSON File
       skills: [
-        emoji('⚡ Experience with Laravel + Vue JS, Angular, React, NestJs, MEAN/MERN Stack on business domains'),
+        emoji('⚡ Experience with Laravel + VueJS, Angular, ReactJS, NestJS, MEAN/MERN Stack on business domains'),
         emoji('⚡ Experience with REST APIs with understanding of object-oriented programming (OOP) design patterns'),
         emoji('⚡ Integration & Unit Testing'),
         emoji('⚡ Docker, CI/CD pipeline'),
