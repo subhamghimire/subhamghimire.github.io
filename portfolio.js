@@ -4,7 +4,7 @@ export const greetings = {
   name: 'Shekhar Ghimire',
   title: "Hi all, I'm Shekhar",
   description:
-    "I'm passionate Full Stack web developer having an experience of web applications with PHP, Laravel, Vue.js, React.js",
+    "I'm passionate Full Stack web developer having an experience of developing web applications from scratch to end.I have built a number of web applications from scratch and have a vast experience in the development field.",
   resumeLink: 'https://subhamghimire.github.io/resume',
 };
 
@@ -24,7 +24,7 @@ export const socialLinks = {
 
 export const skillsSection = {
   title: 'What I do',
-  subTitle: 'FULL STACK DEVELOPER',
+  subTitle: 'SOFTWARE DEVELOPER',
   data: [
     {
       title: 'Full Stack Development',
@@ -97,7 +97,7 @@ export const experience = [
     role: 'MEAN Stack Developer',
     company: 'Kilroy Blockchain',
     companylogo: '/img/icons/common/kilroyblockchain-logo.jpg',
-    date: 'Dec 2019 - June 2022',
+    date: 'July 2022 - Present',
     desc: 'Working on web, AI and blockchain projects with team as a developer',
   },
   {
@@ -105,13 +105,13 @@ export const experience = [
     company: 'Alphatech',
     companylogo: '/img/icons/common/alphatech.png',
     date: 'Dec 2019 - June 2022',
-    desc: 'Worked as Full Stack web developer to create fast, user-centric web apps,maintainable code & intuitive user interfaces',
+    desc: 'Worked as Full Stack web developer to write maintainable code & intuitive UI',
   },
   {
     role: 'Junior Web Developer',
     company: 'Rubix Web',
     companylogo: '/img/icons/common/rubix.png',
     date: 'Sept 2018 - Dec 2019',
-    desc: 'Learned PHP, Laravel framework development along with frontend technologies',
+    desc: 'Learned PHP and frontend technologies HTML, CSS & JS',
   },
 ];
