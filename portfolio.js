@@ -105,6 +105,6 @@ export const experience = [
     company: 'Alphatech',
     companylogo: '/img/icons/common/alphatech.png',
     date: 'Dec 2019 - June 2022',
-    desc: 'Worked as Full Stack web developer to write maintainable code & intuitive UI',
+    desc: 'Worked as Full Stack web developer with Laravel + VueJS',
   },
 ];
