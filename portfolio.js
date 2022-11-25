@@ -107,11 +107,4 @@ export const experience = [
     date: 'Dec 2019 - June 2022',
     desc: 'Worked as Full Stack web developer to write maintainable code & intuitive UI',
   },
-  {
-    role: 'Junior Web Developer',
-    company: 'Rubix Web',
-    companylogo: '/img/icons/common/rubix.png',
-    date: 'Sept 2018 - Dec 2019',
-    desc: 'Learned PHP and frontend technologies HTML, CSS & JS',
-  },
 ];
