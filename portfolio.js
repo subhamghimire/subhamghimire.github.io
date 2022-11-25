@@ -4,7 +4,7 @@ export const greetings = {
   name: 'Shekhar Ghimire',
   title: "Hi all, I'm Shekhar",
   description:
-    "I'm passionate Full Stack web developer having an experience of developing web applications from scratch to end.I have built a number of web applications from scratch and have a vast experience in the development field.",
+    "I'm passionate Software Developer having an experience of developing web applications from scratch to end.I have built a number of web applications from scratch and have a vast experience in the development field.",
   resumeLink: 'https://subhamghimire.github.io/resume',
 };
 
