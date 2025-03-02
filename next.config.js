@@ -1,6 +1,9 @@
-module.exports = {
-	reactStrictMode: false,
-	images: {
-		domains: ["avatars.githubusercontent.com"],
-	}
+const nextConfig = {
+  output: 'export',
+  images: {
+    domains: ["avatars.githubusercontent.com"],
+  },
+  reactStrictMode: false,
 };
+
+module.exports = nextConfig;
