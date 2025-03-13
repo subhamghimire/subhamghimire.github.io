@@ -1,8 +1,6 @@
-import emoji from 'react-easy-emoji';
-
 export const greetings = {
   name: 'Shekhar Ghimire',
-  title: "Hi all, I'm Shekhar",
+  title: "Hi all, I'm Shekhar Ghimire",
   description:
     "I'm a passionate Software Engineer with experience in building web applications from scratch to completion. I have developed numerous web applications and have extensive experience in the field.",
 };
