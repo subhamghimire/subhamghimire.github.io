@@ -1,6 +1,6 @@
 export const greetings = {
-  name: 'Shekhar Ghimire',
-  title: "Hi all, I'm Shekhar Ghimire",
+  name: 'Shekhar',
+  title: "Shekhar Ghimire",
   description:
     "I'm a passionate Software Engineer with experience in building web applications from scratch to completion. I have developed numerous web applications and have extensive experience in the field.",
 };
