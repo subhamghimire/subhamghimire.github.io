@@ -12,7 +12,7 @@ const Greetings = () => {
     document.scrollingElement.scrollTop = 0;
   });
   const openResume = () => {
-    window.open("/resume", "_blank");
+    window.open("/resume.pdf", "_blank");
   };
   return (
     <main>
