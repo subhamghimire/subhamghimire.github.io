@@ -4,8 +4,7 @@ export const greetings = {
   name: 'Shekhar Ghimire',
   title: "Hi all, I'm Shekhar",
   description:
-    "I'm passionate Software Developer having an experience of developing web applications from scratch to end.I have built a number of web applications from scratch and have a vast experience in the development field.",
-  resumeLink: 'https://subhamghimire.github.io/resume',
+    "I'm a passionate Software Engineer with experience in building web applications from scratch to completion. I have developed numerous web applications and have extensive experience in the field.",
 };
 
 export const openSource = {
@@ -15,37 +14,25 @@ export const openSource = {
 export const contact = {};
 
 export const socialLinks = {
-  facebook: 'https://www.facebook.com/profile.php?id=100069337756812',
-  instagram: 'https://www.instagram.com/subham.ghimire/',
-  twitter: 'https://twitter.com/GhimireShekhar1',
-  github: 'https://github.com/subhamghimire',
   linkedin: 'https://www.linkedin.com/in/shekhar-ghimire-0944a4157',
+  github: 'https://github.com/subhamghimire',
+  twitter: 'https://twitter.com/GhimireShekhar1',
 };
 
 export const skillsSection = {
-  title: 'What I do',
-  subTitle: 'SOFTWARE DEVELOPER',
+  title: 'What I Do',
+  subTitle: 'SOFTWARE ENGINEER 🚀',
   data: [
     {
-      title: 'Full Stack Development',
+      title: '',
       lottieAnimationFile: '/lottie/skills/fullstack.json', // Path of Lottie Animation JSON File
-      skills: [
-        emoji('⚡ Experience with Laravel + VueJS, Angular, ReactJS, NestJS, MEAN/MERN Stack on business domains'),
-        emoji('⚡ Experience with REST APIs with understanding of object-oriented programming (OOP) design patterns'),
-        emoji('⚡ Integration & Unit Testing'),
-        emoji('⚡ Docker, CI/CD pipeline'),
-        emoji('⚡ Experience working with Agile and Scrum teams'),
-        emoji('⚡ Learning ML'),
+     skills: [
+        "⚡ Full-Stack Development using modern frameworks and best practices",
+        "⚡ Expertise in API integration, design patterns, and software testing",
+        "⚡ Experience with containerization, CI/CD pipelines, and Agile methodologies",
+        "⚡ Currently expanding knowledge in Machine Learning",
       ],
       softwareSkills: [
-        {
-          skillName: 'HTML-5',
-          fontAwesomeClassname: 'vscode-icons:file-type-html',
-        },
-        {
-          skillName: 'CSS-3',
-          fontAwesomeClassname: 'vscode-icons:file-type-css',
-        },
         {
           skillName: 'JavaScript',
           fontAwesomeClassname: 'logos:javascript',
@@ -63,12 +50,12 @@ export const skillsSection = {
           fontAwesomeClassname: 'vscode-icons:file-type-vue',
         },
         {
-          skillName: 'Angular',
-          fontAwesomeClassname: 'vscode-icons:file-type-angular',
-        },
-        {
           skillName: 'NestJS',
           fontAwesomeClassname: 'vscode-icons:file-type-nestjs',
+        },
+        {
+          skillName: 'Angular',
+          fontAwesomeClassname: 'vscode-icons:file-type-angular',
         },
         {
           skillName: 'ReactJS',
@@ -94,17 +81,21 @@ export const educationInfo = [
 
 export const experience = [
   {
+    role: 'Software Engineer',
+    company: 'Too Lost',
+    companylogo: '/img/icons/common/toolost-logo.png',
+    date: 'Mar 2023 - Present',
+  },
+  {
     role: 'MEAN Stack Developer',
     company: 'Kilroy Blockchain',
     companylogo: '/img/icons/common/kilroyblockchain-logo.jpg',
-    date: 'July 2022 - Present',
-    desc: 'Working on web, AI and blockchain projects with team as a developer',
+    date: 'July 2022 - Feb 2023',
   },
   {
     role: 'Full Stack Developer',
     company: 'Alphatech',
     companylogo: '/img/icons/common/alphatech.png',
     date: 'Dec 2019 - June 2022',
-    desc: 'Worked as Full Stack web developer with Laravel + VueJS',
   },
 ];

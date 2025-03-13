@@ -15,25 +15,27 @@ export default function Home({ githubProfileData }) {
       <SEO
         data={{
           title: 'Shekhar Ghimire',
-          description: 'A passionate Software Developer from Nepal 🇳🇵',
+          description: 'Software Engineer from Nepal 🇳🇵',
           image:
             'https://avatars.githubusercontent.com/u/26000785?s=400&u=fe72c78adb51053f7e19c9f076c315ac5af5b2bc&v=4',
           url: 'https://shekharghimire.com.np',
           keywords: [
             'Shekhar Ghimire',
             'Shekhar Ghimire website',
-            'subhamghimire portfolio website',
-            'Subham Ghimire',
+            'shekharghimire portfolio website',
+            'Shekhar',
             'Shekhar portfolio',
-            'Shekhar Ghimire',
+            'Shekhar Ghimire Resume',
+            'shekharghimire',
+            'shekhar ghimire',
           ],
         }}
       />
       <Navigation />
       <Greetings />
       <Skills />
-      <Education />
       <Experience />
+      <Education />
       <GithubProfileCard prof={githubProfileData} />
     </div>
   );

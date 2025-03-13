@@ -11,6 +11,9 @@ const Greetings = () => {
     document.documentElement.scrollTop = 0;
     document.scrollingElement.scrollTop = 0;
   });
+  const openResume = () => {
+    window.open("/resume", "_blank");
+  };
   return (
     <main>
       <div className="position-relative">
@@ -39,7 +42,7 @@ const Greetings = () => {
                     <Button
                       className="btn-white btn-icon mb-3 mb-sm-0 ml-1"
                       color="default"
-                      href={greetings.resumeLink}
+                      onClick={openResume}
                     >
                       <span className="btn-inner--icon mr-1">
                         <i className="fa fa-file" />
