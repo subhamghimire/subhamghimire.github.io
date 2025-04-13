@@ -2,7 +2,7 @@ export const greetings = {
   name: 'Shekhar',
   title: "Shekhar Ghimire",
   description:
-    "I'm a passionate Software Engineer with experience in building web applications from scratch to completion. I have developed numerous web applications and have extensive experience in the field.",
+    "Shekhar Ghimire is a passionate Software Engineer with experience in building web applications from scratch to completion and have extensive experience in the field.",
 };
 
 export const openSource = {
