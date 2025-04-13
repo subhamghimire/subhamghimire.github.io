@@ -12,7 +12,7 @@ const Greetings = () => {
     document.scrollingElement.scrollTop = 0;
   });
   const openResume = () => {
-    window.open("/resume.pdf", "_blank");
+    window.open("https://docs.google.com/document/d/12gmdpUYGvt2E6-GVZ_kg1UPUr-ohY0bfqJC9sjbsWuE", "_blank");
   };
   return (
     <main>
