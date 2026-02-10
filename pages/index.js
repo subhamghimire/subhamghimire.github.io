@@ -16,7 +16,7 @@ export default function Home({ githubProfileData }) {
         data={{
           title: 'Shekhar Ghimire',
           description: 'Shekhar Ghimire is a passionate Software Engineer with experience in building web applications from scratch to completion and have extensive experience in the field.',
-          image: '/favicon.png',
+          image: '/favicon.svg',
           keywords: [
             'Shekhar Ghimire',
             'Shekhar Ghimire website',
