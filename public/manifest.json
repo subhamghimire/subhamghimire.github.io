@@ -4,15 +4,15 @@
   "description": "Full Stack Web Developer",
   "icons": [
     {
-      "src": "./favicon.png",
-      "type": "image/png",
+      "src": "./favicon.svg",
+      "type": "image/svg",
       "sizes": "192x192"
     },
     {
-      "src": "./favicon.png",
-      "type": "image/png",
+      "src": "./favicon.svg",
+      "type": "image/svg",
       "sizes": "512x512"
-    }
+    } 
   ],
   "start_url": "./index.html",
   "display": "standalone",
