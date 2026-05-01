@@ -1,47 +1,32 @@
 {
-  "name": "portfolio",
-  "version": "1.0.0",
-  "description": "Shekhar Ghimire portfolio website",
-  "main": "index.js",
-  "repository": "https://github.com/subhamghimire/portfolio",
-  "author": "Shekhar Ghimire",
-  "license": "MIT",
+  "name": "nextapp",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "export": "npm run build && next export -o _static"
+    "lint": "eslint"
   },
   "dependencies": {
-    "@apollo/client": "^3.3.21",
-    "@iconify/react": "^3.1.3",
-    "@next/eslint-plugin-next": "11.1.3-canary.7",
-    "bootstrap": "^5.0.2",
-    "classnames": "^2.3.1",
-    "graphql": "^15.5.1",
-    "headroom.js": "^0.12.0",
-    "moment": "^2.29.1",
-    "next": "latest",
-    "nouislider": "^15.2.0",
-    "prop-types": "^15.7.2",
-    "react": "18",
-    "react-datetime": "^3.0.4",
-    "react-dom": "18",
-    "react-easy-emoji": "^1.5.0",
-    "react-headroom": "^3.1.1",
-    "react-lottie": "^1.2.3",
-    "react-reveal": "^1.2.2",
-    "react-scripts": "^4.0.3",
-    "react-typist": "^2.0.5",
-    "reactstrap": "^8.9.0",
-    "sharp": "^0.29.1"
+    "@iconify/react": "^6.0.2",
+    "clsx": "^2.1.1",
+    "framer-motion": "^12.35.1",
+    "lottie-react": "^2.4.1",
+    "lucide-react": "^0.577.0",
+    "next": "16.1.6",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "tailwind-merge": "^3.5.0"
   },
   "devDependencies": {
-    "eslint": "7.32.0",
-    "eslint-config-next": "11.1.2"
-  },
-  "node": {
-		"dns": "empty"
-	}
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.1.6",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
 }

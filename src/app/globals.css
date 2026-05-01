@@ -1,0 +1,74 @@
+@import "tailwindcss";
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  font-family:
+    "Manrope",
+    "Space Grotesk",
+    "Avenir Next",
+    "Segoe UI",
+    sans-serif;
+  background:
+    radial-gradient(circle at top left, rgba(148, 163, 184, 0.14), transparent 30rem),
+    radial-gradient(circle at 85% 16%, rgba(59, 130, 246, 0.08), transparent 26rem),
+    linear-gradient(180deg, rgba(15, 23, 42, 0.16), transparent 18rem),
+    #0c1117;
+}
+
+a,
+button {
+  transition:
+    border-color 160ms ease,
+    background-color 160ms ease,
+    color 160ms ease,
+    box-shadow 160ms ease,
+    transform 160ms ease;
+}
+
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid rgba(226, 232, 240, 0.72);
+  outline-offset: 3px;
+}
+
+.signature-mark {
+  position: relative;
+  display: inline-block;
+  font-family: "Brush Script MT", "Snell Roundhand", "Segoe Script", cursive;
+  font-size: 2.05rem;
+  font-style: italic;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  line-height: 1;
+  transform: rotate(-3deg) translateY(1px);
+  text-shadow:
+    0 1px 0 rgba(255, 255, 255, 0.16),
+    0 10px 24px rgba(59, 130, 246, 0.25);
+}
+
+.signature-mark::after {
+  content: "";
+  position: absolute;
+  left: 8%;
+  right: 0;
+  bottom: 0.1rem;
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    rgba(226, 232, 240, 0.05),
+    rgba(191, 219, 254, 0.72),
+    rgba(226, 232, 240, 0.05)
+  );
+  transform: rotate(-4deg);
+}
+
+.signature-mark--sm {
+  font-size: 1.95rem;
+}
+
+.signature-mark--md {
+  font-size: 2.15rem;
+}
