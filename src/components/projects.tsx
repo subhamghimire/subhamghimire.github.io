@@ -88,7 +88,7 @@ export async function Projects() {
         {latestProjects.map((project, index) => (
           <article
             key={`${project.title}-${index}`}
-            className="flex h-full flex-col rounded-2xl border border-white/10 bg-slate-900/55 p-5 shadow-xl shadow-slate-950/15 hover:border-white/20 hover:bg-slate-900/75 sm:p-6"
+            className="flex h-full flex-col rounded-2xl border border-white/10 bg-[#111821]/65 p-5 shadow-xl shadow-black/15 hover:border-white/20 hover:bg-[#141d28]/85 sm:p-6"
           >
             <h3 className="text-lg font-semibold tracking-tight text-slate-50">{project.title}</h3>
             <p className="mt-3 text-sm leading-6 text-slate-300">{project.description}</p>

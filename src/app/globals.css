@@ -12,9 +12,9 @@ body {
     "Segoe UI",
     sans-serif;
   background:
-    radial-gradient(circle at top left, rgba(148, 163, 184, 0.14), transparent 30rem),
-    radial-gradient(circle at 85% 16%, rgba(59, 130, 246, 0.08), transparent 26rem),
-    linear-gradient(180deg, rgba(15, 23, 42, 0.16), transparent 18rem),
+    radial-gradient(circle at top left, rgba(148, 163, 184, 0.1), transparent 30rem),
+    radial-gradient(circle at 85% 16%, rgba(56, 88, 122, 0.08), transparent 26rem),
+    linear-gradient(180deg, rgba(12, 17, 23, 0.18), transparent 18rem),
     #0c1117;
 }
 

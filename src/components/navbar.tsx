@@ -26,7 +26,7 @@ export function Navbar() {
   return (
     <header
       className={`sticky top-0 z-50 border-b ${
-        isScrolled ? 'border-white/10 bg-slate-950/90 shadow-lg shadow-slate-950/20' : 'border-transparent bg-slate-950/75'
+        isScrolled ? 'border-white/10 bg-[#0c1117]/92 shadow-lg shadow-black/20' : 'border-transparent bg-[#0c1117]/80'
       } backdrop-blur`}
     >
       <div className="mx-auto flex w-full max-w-6xl items-center justify-between px-4 py-3.5 sm:px-6 lg:px-8">
@@ -58,7 +58,7 @@ export function Navbar() {
       </div>
 
       {isOpen ? (
-        <nav className="border-t border-white/10 bg-slate-950/95 px-4 py-3 shadow-lg shadow-slate-950/30 md:hidden">
+        <nav className="border-t border-white/10 bg-[#0c1117]/96 px-4 py-3 shadow-lg shadow-black/30 md:hidden">
           <ul className="mx-auto flex w-full max-w-6xl flex-col gap-2">
             {navItems.map((item) => (
               <li key={item.href}>
