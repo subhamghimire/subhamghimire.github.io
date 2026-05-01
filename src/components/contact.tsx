@@ -12,8 +12,8 @@ export function Contact() {
         description="Open to collaborating on product engineering, full-stack builds, and API-focused platforms."
       />
 
-      <div className="grid gap-6 rounded-2xl border border-white/10 bg-slate-900/60 p-5 shadow-2xl shadow-slate-950/20 sm:grid-cols-[auto,1fr] sm:items-center sm:p-6">
-        <div className="h-24 w-24 overflow-hidden rounded-full border border-white/10 shadow-xl shadow-slate-950/30 sm:h-28 sm:w-28">
+      <div className="grid gap-6 rounded-2xl border border-white/10 bg-[#111821]/70 p-5 shadow-2xl shadow-black/20 sm:grid-cols-[auto,1fr] sm:items-center sm:p-6">
+        <div className="h-24 w-24 overflow-hidden rounded-full border border-white/10 shadow-xl shadow-black/30 sm:h-28 sm:w-28">
           <Image
             src="https://avatars.githubusercontent.com/subhamghimire"
             alt="github profile"

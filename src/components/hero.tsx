@@ -35,7 +35,7 @@ export function Hero() {
         </div>
 
         <div className="lg:col-span-4 lg:justify-self-end">
-          <div className="rounded-2xl border border-white/10 bg-slate-900/65 p-5 shadow-2xl shadow-slate-950/25 backdrop-blur">
+          <div className="rounded-2xl border border-white/10 bg-[#111821]/75 p-5 shadow-2xl shadow-black/25 backdrop-blur">
             <p className="text-xs font-semibold uppercase tracking-[0.18em] text-slate-400">Connect</p>
             <div className="mt-5 flex items-center gap-3">
               <a
