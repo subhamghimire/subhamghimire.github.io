@@ -5,7 +5,7 @@ import { SectionShell } from './section-shell';
 export function Education() {
   return (
     <SectionShell id="education">
-      <SectionHeading eyebrow="Education" title="Academic background" />
+      <SectionHeading eyebrow="Education" title="Academic Background" />
 
       <div className="grid gap-4 sm:grid-cols-2">
         {educationData.map((item) => (

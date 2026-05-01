@@ -258,7 +258,6 @@ export const educationData = [
   {
     school: 'Hetauda School of Management & Social Sciences',
     degree: 'Science',
-    date: 'Apr 2015 - Sep 2017',
   },
 ];
 

@@ -8,7 +8,7 @@ export function Contact() {
     <SectionShell id="contact">
       <SectionHeading
         eyebrow="Contact"
-        title="Let's build something useful together."
+        title="Let's Build Something Useful Together."
         description="Open to collaborating on product engineering, full-stack builds, and API-focused platforms."
       />
 

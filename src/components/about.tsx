@@ -7,7 +7,7 @@ export function About() {
     <SectionShell id="about">
       <SectionHeading
         eyebrow="About"
-        title="Building practical products with clean architecture."
+        title="Building Practical Products with Clean Architecture."
         description={personalInfo.about}
       />
 

@@ -7,7 +7,7 @@ export function Experience() {
     <SectionShell id="experience">
       <SectionHeading
         eyebrow="Experience"
-        title="Professional journey"
+        title="Professional Journey"
         description="Roles focused on shipping scalable products and reliable backend systems."
       />
 
