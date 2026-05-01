@@ -8,8 +8,7 @@ export function Hero() {
     <SectionShell id="home" className="border-t-0">
       <div className="grid gap-10 py-8 sm:py-12 lg:grid-cols-12 lg:items-center lg:py-16">
         <div className="lg:col-span-8">
-          <p className="text-xs font-semibold uppercase tracking-[0.2em] text-slate-400">Software Engineer</p>
-          <h1 className="mt-5 max-w-4xl text-4xl font-semibold tracking-[-0.04em] text-slate-50 sm:text-6xl lg:text-7xl">
+          <h1 className="max-w-4xl text-4xl font-semibold tracking-[-0.04em] text-slate-50 sm:text-6xl lg:text-7xl">
             {personalInfo.name}
           </h1>
           <p className="mt-5 max-w-3xl text-lg font-medium text-slate-200 sm:text-2xl">{personalInfo.role}</p>

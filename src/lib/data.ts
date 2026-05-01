@@ -9,7 +9,7 @@ export const siteMetadata = {
 
 export const personalInfo = {
   name: 'Shekhar Ghimire',
-  role: 'AI Full Stack Engineer | Software Engineer',
+  role: 'Software Engineer',
   shortDescription: 'Building scalable web applications, APIs, and modern software systems.',
   about: 'Shekhar Ghimire is a passionate Software Engineer with experience in building web applications from scratch to completion and have extensive experience in the field.',
   email: 'shekhar.ghimire24@gmail.com',
