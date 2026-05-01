@@ -88,28 +88,28 @@ export async function Projects() {
         {latestProjects.map((project, index) => (
           <article
             key={`${project.title}-${index}`}
-            className="flex h-full flex-col rounded-xl border border-white/10 bg-slate-900/60 p-5 hover:border-white/20"
+            className="flex h-full flex-col rounded-2xl border border-white/10 bg-slate-900/55 p-5 shadow-xl shadow-slate-950/15 hover:border-white/20 hover:bg-slate-900/75 sm:p-6"
           >
-            <h3 className="text-lg font-medium text-slate-100">{project.title}</h3>
-            <p className="mt-2 text-sm leading-6 text-slate-400">{project.description}</p>
+            <h3 className="text-lg font-semibold tracking-tight text-slate-50">{project.title}</h3>
+            <p className="mt-3 text-sm leading-6 text-slate-300">{project.description}</p>
 
             <ul className="mt-4 flex flex-wrap gap-2">
               {project.tech.map((item) => (
                 <li
                   key={item}
-                  className="rounded-md border border-white/10 px-2 py-1 text-xs font-medium text-slate-300"
+                  className="rounded-full border border-white/10 bg-white/3 px-2.5 py-1 text-xs font-medium text-slate-300"
                 >
                   {item}
                 </li>
               ))}
             </ul>
 
-            <div className="mt-5 flex items-center gap-3 pt-2">
+            <div className="mt-auto flex items-center gap-4 pt-6">
               <a
                 href={project.githubUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-1.5 text-sm text-slate-300 hover:text-slate-100"
+                className="inline-flex items-center gap-1.5 rounded-full text-sm font-medium text-slate-300 hover:text-slate-50"
               >
                 <Github size={15} /> Code
               </a>
@@ -118,7 +118,7 @@ export async function Projects() {
                   href={project.liveUrl}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-1.5 text-sm text-slate-300 hover:text-slate-100"
+                  className="inline-flex items-center gap-1.5 rounded-full text-sm font-medium text-slate-300 hover:text-slate-50"
                 >
                   <ExternalLink size={15} /> Live
                 </a>
