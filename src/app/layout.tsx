@@ -6,6 +6,15 @@ export const metadata: Metadata = {
   title: siteMetadata.title,
   description: siteMetadata.description,
   authors: [{ name: siteMetadata.author }],
+  icons: {
+    icon: [
+      { url: '/favicon.ico', sizes: 'any' },
+      { url: '/icon.png', type: 'image/png' },
+      { url: '/favicon.svg', type: 'image/svg+xml' },
+    ],
+    shortcut: '/favicon.ico',
+    apple: '/icon.png',
+  },
   openGraph: {
     title: siteMetadata.title,
     description: siteMetadata.description,
