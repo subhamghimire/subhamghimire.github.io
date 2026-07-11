@@ -23,7 +23,7 @@ export function Hero() {
               <ArrowRight size={16} />
             </Link>
             <a
-              href="https://docs.google.com/document/d/12gmdpUYGvt2E6-GVZ_kg1UPUr-ohY0bfqJC9sjbsWuE"
+              href="https://docs.google.com/document/d/10BnIdrUdWZqGMO8s9CALnm_NJE21A3-LHBjfB0P8ZEs"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center rounded-full border border-white/15 bg-white/3 px-5 py-2.5 text-sm font-medium text-slate-200 hover:border-white/30 hover:bg-white/6 hover:text-slate-50"
